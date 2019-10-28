@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3F51B5"
+        android:text="Hello"
+        android:gravity=""
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Input RMB"
+        android:textColor="#155D96"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="#0B5485"
+        android:gravity="center_horizontal"
+        android:textSize="70sp" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="7dp"
+        android:background="#FF9800"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DOLLAR"
+        android:textColor="#050000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="17dp"
+        android:background="#FF9800"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="EURO"
+        android:textColor="#050000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="17dp"
+        android:background="#FF9800"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="WON"
+        android:textColor="#050000"
+        android:textSize="30sp" />
+
+</LinearLayout>

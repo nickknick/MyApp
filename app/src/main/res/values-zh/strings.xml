@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="btn">你好</string>
+    <string name="exchangeRate">汇率转换器</string>
+    <string name="btn2dollar">转换为美元</string>
+    <string name="btn2euro">转换为欧元</string>
+    <string name="btn2won">转换为韩元</string>
+    <string name="opencfgc">设置汇率</string>
+</resources>
